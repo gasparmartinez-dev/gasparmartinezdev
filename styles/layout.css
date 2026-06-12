@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin:0;
     width:100%;
@@ -22,6 +26,10 @@ header{
 
     border-bottom: 1px solid #222222;
 
+    position: fixed;
+    top: 0;
+    left: 0;
+
 }
 
 #nombre{
@@ -38,9 +46,11 @@ header{
     color: #a5a39f;
 }
 
-main{
-    height: 800px;
+a{
+    text-decoration: none;
+    color: #a5a39f;
 }
+
 
 footer{
     width: 100%;
@@ -52,13 +62,10 @@ footer{
 
     background: #0D0D0B;
 
-    position: absolute;
-    bottom: 0;
-    left: 0;
-
-
     font-family: 'Inter', sans-serif;
     color: #a5a39f;
+
+    border-top: 1px solid #222222;
 }
 
 footer span{
@@ -99,7 +106,8 @@ section{
     width: 100%;
 
     box-sizing: border-box;
-    padding: 40px;
+    padding: 70px;
+    padding-bottom: 70px;
 }
 
 .section1{
@@ -111,8 +119,6 @@ h1{
     color: #E8703A;
     font-family: 'Inter', sans-serif;
     margin-bottom: 40px;
+    margin-top: 80px;
 }
 
-a{
-    text-decoration: none;
-}
