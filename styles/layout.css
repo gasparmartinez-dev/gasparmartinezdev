@@ -7,6 +7,8 @@ body{
     width:100%;
     display: flex;
     flex-direction: column;
+
+    font-family: 'Inter', sans-serif;
 }
 
 header{
@@ -107,11 +109,15 @@ section{
 
     box-sizing: border-box;
     padding: 70px;
-    padding-bottom: 70px;
+    padding-top: 50px;
 }
 
 .section1{
     background: #0D0D0B;
+}
+
+.section2{
+    background: #171715;
 }
 
 h1{
