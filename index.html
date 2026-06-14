@@ -21,8 +21,9 @@
         <div id="navMenu">
             <a class="navs" href="#inicio">Inicio</a>
             <a class="navs" href="#sobre_mi">Sobre mí</a>
+            <a class="navs" href="#skills">Tecnologías</a>
+            <a class="navs" href="#experiencia">Experiencia</a>
             <a class="navs">Proyectos</a>
-            <a class="navs">Experiencia</a>
             <a class="navs" href="#contacto">Contacto</a>
         </div>
     </header>
@@ -54,25 +55,70 @@
             </div>
         </section>
 
-        <section class="section2" id="sobre_mi">
+        <section class="section2" id="skills">
             <h1>02 - TECNOLOGÍAS</h1>
             <div class="skills_container">
-                <div class="skills_sidebar">
-                    <div class="skills_opcion active" categoria="IA">
+                <div class="sidebar">
+                    <div class="opcion_sidebar skills_opcion active" categoria="IA">
                         <h4>IA</h4>
                         <span>Herramientas, librerías y técnicas de aprendizaje.</span>
                     </div>
-                    <div class="skills_opcion" categoria="web">
+                    <div class="opcion_sidebar skills_opcion" categoria="web">
                         <h4>Desarrollo web</h4>
                         <span>Frontend, backend y diseño web.</span>
                     </div>
-                    <div class="skills_opcion" categoria="devops">
+                    <div class="opcion_sidebar skills_opcion" categoria="devops">
                         <h4>DevOps</h4>
                         <span>Herramientas complementarias de desarrollo, despliegue...</span>
                     </div>
                 </div>
                 <div class="grid_skills" id="skills-grid"></div>
             </div>
+        </section>
+
+        <section class="section1" id="experiencia">
+            <h1>03 - EXPERIENCIA LABORAL</h1>
+            <div class="exp_container">
+            <div class="sidebar">
+                <div class="opcion_sidebar exp_opcion active" data-id="freelance">
+                    <h4>Desarrollador Freelance</h4>
+                    <span>Noviembre 2025 - Ahora</span>
+                </div>
+                <div class="opcion_sidebar exp_opcion" data-id="profe">
+                    <h4>Profesor de curso de informática</h4>
+                    <span>Junio 2025 - Julio 2025</span>
+                </div>
+            </div>
+
+            <div class="expcard">
+                <div class="expcard_header">
+                    <div class="expcard_titulo_container">
+                        <h6 id="expcard_titulo"></h6>
+                        <span id="expcard_empresa"></span>
+                    </div>
+                    <div class="expcard_header_datos">
+                        <span id="expcard_ciudad" class="ubi_per"></span>
+                        <span id="expcard_periodo" class="ubi_per"></span>
+                    </div>
+                </div>
+                <p id="expcard_p1"></p>
+                <p id="expcard_p2"></p>
+                <span id="expcard_logros"></span>
+                <ul>
+                    <li id="expcard_ul1"></li>
+                    <li id="expcard_ul2"></li>
+                    <li id="expcard_ul3"></li>
+                </ul>
+                <div class="expcard_usado_container">
+                    <div class="expcard_usado" id="expcard_usado1"></div>
+                    <div class="expcard_usado" id="expcard_usado2"></div>
+                    <div class="expcard_usado" id="expcard_usado3"></div>
+                    <div class="expcard_usado" id="expcard_usado4"></div>
+                    <div class="expcard_usado" id="expcard_usado5"></div>
+                </div>
+            </div>
+            </div>
+
         </section>
 
         <section class="section2" id="contacto">
@@ -190,6 +236,7 @@
 </footer>
 
 <script src="js/skills.js"></script>
+<script src="js/exp.js"></script>
     
 </body>
 </html>
