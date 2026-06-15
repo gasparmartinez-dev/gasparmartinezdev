@@ -367,3 +367,30 @@ form button{
         margin-right: 10px;
     }
 }
+
+.cabecera_proyectos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    h2{
+        margin:0;
+    }
+}
+
+.menu_proyectos{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.opcion_proyectos{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    padding: 6px 12px 6px 12px;
+    background: #31312e;
+    color: #8A8478;
+    border-radius: 2px;
+}
