@@ -59,3 +59,23 @@ body {
 #inicio_navs{
     margin-top: 50px;
 }
+
+.about_container{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        font-size: 28px;
+    }
+}
+
+p{
+    font-size: 16px;
+}
+
+#mifoto{
+    width: 90%;
+}
