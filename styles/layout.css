@@ -11,6 +11,10 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
+main{
+    width: 100%;
+}
+
 header{
     width: 100%;
     display: flex;
@@ -44,7 +48,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     gap: 30px;
-    padding-right: 40px;
+    margin-right: 40px;
     color: #a5a39f;
 }
 

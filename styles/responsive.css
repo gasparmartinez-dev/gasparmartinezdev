@@ -1,0 +1,61 @@
+#nombre{
+    display: none;
+}
+header{
+    flex-direction: column;
+    height: auto;
+    padding: 15px 0;
+}
+
+#navMenu{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 0;
+    gap: 10px;
+    font-size: 12px;
+}
+
+section{
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.frase{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.about_container img{
+    width: 100%;
+}
+
+.about_container{
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.boton_link{
+    font-size: 12px;
+    gap: 4px;
+    font-weight: 600;
+
+    padding: 6px 8px 6px 8px;
+}
+
+#contacto_link{
+    font-size: 12px;
+    gap: 4px;
+    font-weight: 600;
+
+    padding: 4px 8px 4px 8px;
+}
+
+#inicio_navs{
+    margin-top: 50px;
+}
