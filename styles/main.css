@@ -409,6 +409,8 @@ form button{
     border: 1px solid rgba(230,224,214, 0.08);
     border-radius: 4px;
 
+    overflow: hidden;
+
     font-family: 'Inter', sans-serif;
     
     
