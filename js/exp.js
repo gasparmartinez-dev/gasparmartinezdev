@@ -4,7 +4,7 @@ const experiencias = {
         empresa: "Centro Educa, La Roda",
         ciudad: "La Roda, Albacete",
         periodo: "Jun 2025 - Jul 2025",
-        p1: "Impartí un curso de introducción a la informática a niños de entre 10 y 18 años. Se trataros varias materias, como ofimática, pero lo más destacado fue enseñarles a usar Scratch.",
+        p1: "Impartí un curso de introducción a la informática a niños de entre 10 y 18 años. Se trataron varias materias, como ofimática, pero lo más destacado fue enseñarles a usar Scratch.",
         p2: "Desarrollaron distintos juegos con Scratch, cada uno en función de sus capacidades. Así, conseguí introducirlos al mundo de la programación de una forma sencilla y entretenida, y los alumnos quedaron muy contentos.",
         logro1: "Diseño e impartición de programas formativos de Scratch y Ofimática.",
         logro2: "Adaptación de contenidos a distintos niveles y rangos de edad.",
