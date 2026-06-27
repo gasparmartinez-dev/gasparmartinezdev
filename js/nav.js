@@ -7,14 +7,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const observerOptions = {
     root: null, 
     rootMargin: "0px",
-    // 0.5 significa que cuando el 50% de la sección esté en pantalla, se activará
     threshold: 0.5 
   };
 
   const observerCallback = (entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        // Obtenemos el id de la sección visible (ej: "sobre_mi")
+        // obtengo el id de la sección visible (ej: "sobre_mi")
         const id = entry.target.getAttribute("id");
 
         // Quitamos la clase 'active' de TODOS los enlaces del menú
