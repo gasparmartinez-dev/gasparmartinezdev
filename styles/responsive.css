@@ -161,3 +161,41 @@ p{
 
     margin-top: 50px;
 }
+
+#contacto_container{
+    flex-direction: column;
+    width: 100%;
+}
+
+.contacto_izq, .contacto_form{
+    width: 100%;
+}
+
+.email_puesto{
+    margin-top: 20px;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+#primeraLineaForm{
+    flex-direction: column;
+}
+
+#primeraLineaForm div{
+    height: 80px;
+    width: 80%;
+}
+
+#primeraLineaForm input{
+    height: 30px;
+}
+
+textarea{
+    padding-top: 10px;
+    width: 95%;
+    height: 200px;
+}
+
+#btnForm{
+    margin-bottom: 50px;
+}
