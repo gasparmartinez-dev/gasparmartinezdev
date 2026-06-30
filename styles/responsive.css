@@ -199,3 +199,22 @@ textarea{
 #btnForm{
     margin-bottom: 50px;
 }
+
+.skills_container{
+    flex-direction: column;
+}
+.sidebar{
+    width: 90%;
+}
+
+.grid_skills{
+    width: 95%;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 105px;
+
+    align-self: center;
+}
+
+.skill_card{
+    padding: 30px;
+}
