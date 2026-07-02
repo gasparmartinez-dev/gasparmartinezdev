@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /node_modules/
+Disallow: /dist/config/
+
+Sitemap: https://gasparmartinez-dev.github.io/gasparmartinezdev/sitemap.xml
