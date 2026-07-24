@@ -55,16 +55,19 @@ header{
 
 a{
     text-decoration: none;
+}
+.navs{
+    text-decoration: none;
     color: #a5a39f;
     transition: all 0.3s ease;
 }
 
-a:hover{
+.navs:hover{
     color: #E8703A;
     scale: 1.1;
 }
 
-a.active{
+.navs.active{
     color: #E8703A;
 }
 

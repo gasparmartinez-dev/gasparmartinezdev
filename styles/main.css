@@ -406,6 +406,11 @@ form button{
     margin-top: 50px;
 }
 
+.proyecto:hover{
+    background: #282825;
+    transition: 0.3s ease-in-out;
+}
+
 .proyecto{
     background: #161614;
     border: 1px solid rgba(230,224,214, 0.08);
