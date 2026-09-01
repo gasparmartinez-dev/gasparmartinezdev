@@ -1,17 +1,19 @@
 const skills = {
     IA: [
-        { nombre: "Pyhton", nivel: "Avanzado" },
+        { nombre: "Pyhton", nivel: "Muy avanzado" },
+        { nombre: "NumPy", nivel: "Muy Avanzado" },
         { nombre: "Pandas", nivel: "Avanzado" },
         { nombre: "Scikit-Learn", nivel: "Intermedio" },
-        { nombre: "TensorFlow", nivel: "Intermedio" },
-        { nombre: "PyTorch", nivel: "Intermedio" },
+        { nombre: "TensorFlow", nivel: "Avanzado" },
+        { nombre: "Redes Neuronales", nivel: "Avanzado" },
+        { nombre: "Sistemas de Recomendación", nivel: "Avanzado" },
     ],
     web: [
         { nombre: "HTML", nivel: "Experto" },
         { nombre: "CSS", nivel: "Experto" },
-        { nombre: "JavaScript", nivel: "Avanzado" },
-        { nombre: "Pyhton", nivel: "Avanzado" },
-        { nombre: "SQL", nivel: "Intermedio" },
+        { nombre: "JavaScript", nivel: "Muy avanzado" },
+        { nombre: "Python", nivel: "Avanzado" },
+        { nombre: "SQL", nivel: "Avanzado" },
         { nombre: "Figma", nivel: "Intermedio" },
     ],
     devops: [
