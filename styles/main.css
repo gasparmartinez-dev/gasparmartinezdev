@@ -418,8 +418,7 @@ form button{
 
     overflow: hidden;
 
-    font-family: 'Inter', sans-serif;
-    
+    font-family: 'Inter', sans-serif;    
     
     img{
         width: 100%;
@@ -466,3 +465,120 @@ form button{
     }
     
 }
+
+
+/* Contenedor padre que oculta lo que se sale de la pantalla */
+.certificaciones-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Fila con las 5 tarjetas */
+.certificiones_container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: max-content;
+    /* Usamos un desplazamiento fijo suave en lugar de calc con vw */
+    animation: scroll-pingpong 12s ease-in-out infinite alternate;
+}
+
+.certificiones_container:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll-pingpong {
+    0% {
+        /* Empieza en la posición inicial exacta */
+        transform: translateX(0);
+    }
+    100% {
+        /* Desplaza justo lo necesario para alinear la última card con el padding derecho de 70px */
+        transform: translateX(calc(-100% + 100vw - 140px));
+    }
+}
+
+.certificado{
+    width: 260px;
+    height: 210px;
+    box-sizing: border-box;
+    padding: 24px;
+    padding-bottom: 15px;
+    background: #161614;
+    border: 1px solid rgba(230,224,214, 0.08);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+
+    transition: 0.3s ease-in-out;
+
+    .certificado-header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        &::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            background-color: #E8703A; /* Tu color naranja */
+            border-radius: 50%;         /* Lo hace totalmente redondo */
+            display: inline-block;
+        }
+
+        svg{
+            height: 20px;
+            width: auto;
+            color: #E8703A;
+        }
+    }
+
+    .certificado-nombre{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.375;
+        margin-bottom: 12px;
+        color: #E6E0D6;
+        margin-top: 15px;
+    }
+
+    .certificado-organizacion{
+        font-size: 12px;
+        line-height: 1.375;
+        color: #8A8478;
+    }
+
+    .certificado-footer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: auto;
+        box-sizing: border-box;
+        border-top: 1px solid rgba(230,224,214, 0.08);
+        padding-top: 15px;
+    }
+
+    .certificado-web{
+        font-size: 12px;
+        padding: 4px 6px;
+        background: #232320;
+        color: #8A8478;
+        border-radius: 2px;
+    }
+
+    .certificado-fecha{
+        font-size: 12px;
+        color: #8A8478;
+    }
+}
+
+.certificado:hover{
+    background: #282825;
+    transition: 0.3s ease-in-out;
+    border-color: #562e1b;
+}
+
