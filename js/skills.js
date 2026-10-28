@@ -12,9 +12,10 @@ const skills = {
         { nombre: "HTML", nivel: "Experto" },
         { nombre: "CSS", nivel: "Experto" },
         { nombre: "JavaScript", nivel: "Muy avanzado" },
-        { nombre: "Python", nivel: "Avanzado" },
         { nombre: "SQL", nivel: "Avanzado" },
-        { nombre: "Figma", nivel: "Intermedio" },
+        { nombre: "MongoDB", nivel: "Avanzado" },
+        { nombre: "Bootstrap", nivel: "Avanzado" },
+        { nombre: "API REST", nivel: "Avanzado" },
     ],
     devops: [
         { nombre: "Git", nivel: "Experto" },
